@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+*{margin:0; padding:0;}
+li{list-style:none;}
+    a{display:block;
+    text-decoration:none;
+    color:#333;}
+
+    fieldset{border:0;}
+    legend{
+        position:absolute;
+        left:-99999px;
+    }
+    #form{
+        
+        width:600px;
+        border:1px solid #333;
+        margin:50px ;
+        padding:50px;
+    }
+    #form fieldset > div::after{
+        content:'';
+        display:block;
+        clear:both;
+    }
+    #form fieldset > div > label{
+        width:150px;
+        font-weight:bold;
+        /* background-color:salmon; */
+        text-align:center;
+        /* display:inline-block; */
+       float:left;
+        line-height:32px;
+        margin-right:10px;
+    }
+    input[type="text"],
+    input[type="password"]{
+        width:300px;
+        height:30px;
+        margin-bottom:5px;
+        border:1px solid #000;
+
+    }
+    input[type="button"]{
+        width:302px;
+        height:30px;
+        background-color:salmon;
+        color:#fff;
+        border:none;
+        margin-bottom: 5px;
+    }
+    
+    .address input[type="text"]{
+        margin-left:160px;
+        
+
+        
+    }
+   
+    .drank div {
+        display:inline-block;
+        /* float:left; */
+    }
+    textarea{
+        resize:none;
+        width:300px;
+    }
+    select{
+        height:40px;
+        width:200px;
+    }
+    .button input[type="reset"]{
+        width:120px;
+        height:40px;
+        border:1px solid #000;
+        background-color:#fff;
+
+    }
+    .button input[type="submit"]{
+        width:120px;
+        height:40px;
+        border:1px solid #000;
+        background-color:#fff;
+
+    }
+    .button{
+        text-align:center;
+        margin-top:40px;
+    }
+        
